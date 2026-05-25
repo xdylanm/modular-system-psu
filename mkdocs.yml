@@ -1,6 +1,6 @@
-site_name: Module
+site_name: Modular System PSU
 site_author: idyllm
-repo_url: https://github.com/xdylanm/modular-template
+repo_url: https://github.com/xdylanm/modular-system-psu
 
 nav:
   - Home: index.md
@@ -71,4 +71,4 @@ extra:
 exclude_docs: |
   **/assets/*.md
 
-copyright: Copyright &copy; 2025 idyllm
+copyright: Copyright &copy; 2026 idyllm

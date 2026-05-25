@@ -41,3 +41,4 @@ hardware/plots/
 
 # MkDocs
 site/
+.cache/

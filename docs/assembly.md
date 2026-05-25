@@ -4,6 +4,6 @@ Your assembly instructions go here.
 
 ## BOM
 
-[Download (.csv)](assets/example_bom.csv)
+[Download (.csv)](assets/bom.csv)
 
-{%include-markdown "assets/example_bom.md"%}
+{%include-markdown "assets/bom.md"%}
