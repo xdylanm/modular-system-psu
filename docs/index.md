@@ -2,7 +2,7 @@
 
 A power supply unit (PSU) for a modular Eurorack system, featuring +/-12V and 5V rails, USB-C input, and a regulated USB-A output.
 
-* Module size: xxHP (yy mm)
+* Module size: 4HP (20 mm)
 * Power output: 1.25A (+12V); 1.25A (-12V); 1.2A (+5V)
 
 !!! repository "Project Source"
