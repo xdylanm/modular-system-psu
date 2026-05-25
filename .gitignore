@@ -34,6 +34,13 @@ hardware/plots/
 
 # Python
 .venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
 
 # MkDocs
 site/

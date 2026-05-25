@@ -36,10 +36,14 @@ theme:
   icon:
     logo: bootstrap-icons-1.13.1/boombox
 
+hooks:
+  - scripts/hooks.py
+
 plugins:
   - search
   - include-markdown
-  - mkdocs-jupyter
+  - mkdocs-jupyter:
+      custom_mathjax_url: ""
   - meta
   - tags
   

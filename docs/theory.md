@@ -150,7 +150,7 @@ $$
 \Delta V_{out} = \Delta I_L \left(R_{C,ESR} + \frac{1}{8 f_{sw} C_{out}}\right)
 $$
 
-The capacitance derating at a 5V DC bias can exceed 60%. Typical ESR plots ([example](https://pim.murata.com/en-global/pim/details/?partNum=GRM31CR61C476ME44L)) show very low ESRs near the switching frequency ($<5m\Omega$), which can be reduced further by connecting capacitors in parallel. For a ripple voltage below 10mV, choose $2\times 47\muF$ 16V capacitors with $ESR<3m\Omega$.
+The capacitance derating at a 5V DC bias can exceed 60%. Typical ESR plots ([example](https://pim.murata.com/en-global/pim/details/?partNum=GRM31CR61C476ME44L)) show very low ESRs near the switching frequency ($<5m\Omega$), which can be reduced further by connecting capacitors in parallel. For a ripple voltage below 10mV, choose $2\times 47\mu F$ 16V capacitors with $ESR<3m\Omega$.
 
 
 ## References
