@@ -29,10 +29,6 @@ fp-lib-table
 *.dsn
 *.ses
 
-# Exported BOM files
-*.xml
-*.csv
-
 # Exported PCB files (Plots)
 hardware/plots/
 
