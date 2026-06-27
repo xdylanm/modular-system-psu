@@ -7,3 +7,13 @@ Your assembly instructions go here.
 [Download (.csv)](assets/bom.csv)
 
 {%include-markdown "assets/bom.md"%}
+
+
+
+
+
+
+
+
+
+

@@ -29,6 +29,8 @@ This design is based around a USB-C input: 45W-60W USB-C adapters are readily av
 
 [Theory](theory.md)
 
+[Measurement](measurement.md)
+
 [Assembly Guide](assembly.md)
 
 [Schematic](assets/schematic.pdf)

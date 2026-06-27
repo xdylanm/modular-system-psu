@@ -5,6 +5,7 @@ repo_url: https://github.com/xdylanm/modular-system-psu
 nav:
   - Home: index.md
   - Design: theory.md
+  - Measurement: measurement.md
   - Assembly: assembly.md
   - Notebook: notebook.ipynb
   - Schematic: assets/schematic.pdf
