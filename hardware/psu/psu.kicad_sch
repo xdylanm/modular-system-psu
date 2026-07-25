@@ -14111,7 +14111,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ebd3065e-2551-4488-8cfa-e96ebb07e6f7")
-		(property "Reference" "SW2"
+		(property "Reference" "SW1"
 			(at 83.82 153.67 0)
 			(effects
 				(font
@@ -14178,7 +14178,7 @@
 		(instances
 			(project "psu"
 				(path "/dcf32edd-aaf4-447c-a68f-dcd4630a380b"
-					(reference "SW2")
+					(reference "SW1")
 					(unit 1)
 				)
 			)

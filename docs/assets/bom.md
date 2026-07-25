@@ -30,7 +30,7 @@
 | R11                      | 1   | 47k                         | 0805                                         | 0805 1% 0.125W                               |
 | R12,R13                  | 2   | 15k                         | 0805                                         | 0805 1% 0.125W                               |
 | R14                      | 1   | 220                         | 0805                                         | 0805 1% 0.125W                               |
-| SW1                      | 1   | SW_Slide_DPDT               | LC2255EENP                                   | LC2255EENP                                   |
+| SW1                      | 1   | Slide DPDT                  | LC2255EENP                                   | LC2255EENP                                   |
 | U1                       | 1   | REC30K-2412DZ               | REC30K-2412DZ                                | REC30K-2412DZ                                |
 | U2                       | 1   | CH224A                      | SSOP-10-EP                                   | CH224A                                       |
 | U3                       | 1   | AP63301WU                   | TSOT-23-6                                    | AP63301WU                                    |
