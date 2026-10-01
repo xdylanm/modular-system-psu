@@ -6,8 +6,8 @@
 	(paper "USLetter")
 	(title_block
 		(title "Modular System PSU")
-		(date "2026-06-26")
-		(rev "1.1")
+		(date "2026-09-30")
+		(rev "1.2")
 		(company "idyllm")
 		(comment 1 "CC BY-SA 4.0")
 	)
@@ -5194,6 +5194,12 @@
 		(uuid "4e53b8fd-f6bd-418c-b357-29586c446343")
 	)
 	(junction
+		(at 171.45 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f5b60d1-e42f-4057-820e-883e51f56b12")
+	)
+	(junction
 		(at 215.9 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5539,6 +5545,16 @@
 	)
 	(wire
 		(pts
+			(xy 171.45 127) (xy 171.45 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "162349a0-faa6-452c-adb0-77520c69afed")
+	)
+	(wire
+		(pts
 			(xy 24.13 173.99) (xy 36.83 173.99)
 		)
 		(stroke
@@ -5626,6 +5642,16 @@
 			(type default)
 		)
 		(uuid "1d806d52-1973-453c-89c1-4169fac07ed0")
+	)
+	(wire
+		(pts
+			(xy 194.31 142.24) (xy 194.31 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ead7347-fa9e-4e34-b2cf-9c6b67b0a5e1")
 	)
 	(wire
 		(pts
@@ -5879,6 +5905,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 127) (xy 194.31 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "422c3309-3416-4bad-be6b-6a79cf9e0921")
+	)
+	(wire
+		(pts
 			(xy 76.2 179.07) (xy 76.2 171.45)
 		)
 		(stroke
@@ -6076,6 +6112,16 @@
 			(type default)
 		)
 		(uuid "5b198205-ddf6-4612-a81d-9f2f4c9e9ef3")
+	)
+	(wire
+		(pts
+			(xy 171.45 127) (xy 181.61 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c143201-5948-420e-a937-08b0519807d5")
 	)
 	(wire
 		(pts
@@ -6339,7 +6385,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 130.81) (xy 171.45 118.11)
+			(xy 171.45 130.81) (xy 171.45 127)
 		)
 		(stroke
 			(width 0)
@@ -6446,6 +6492,16 @@
 			(type default)
 		)
 		(uuid "80069f56-9558-4fda-ae9b-bd2109629edf")
+	)
+	(wire
+		(pts
+			(xy 194.31 127) (xy 194.31 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "801cc5cd-edf5-4f29-b85c-3404ed3ca40d")
 	)
 	(wire
 		(pts
@@ -8679,6 +8735,74 @@
 			(project "psu"
 				(path "/dcf32edd-aaf4-447c-a68f-dcd4630a380b"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 185.42 127 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2aa45228-d9b8-4c25-8b3c-50e1514d4d24")
+		(property "Reference" "R15"
+			(at 185.42 133.35 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220"
+			(at 185.42 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 185.674 128.016 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 185.42 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 185.42 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "889b5978-b9ed-49d4-a020-db2d917a71fc")
+		)
+		(pin "2"
+			(uuid "c3531c4a-f70b-47e8-818c-92722726efdb")
+		)
+		(instances
+			(project "psu"
+				(path "/dcf32edd-aaf4-447c-a68f-dcd4630a380b"
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -11891,6 +12015,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 194.31 142.24 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7610289-8983-4d3b-b856-cbee88f72586")
+		(property "Reference" "#PWR041"
+			(at 194.31 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 194.31 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 194.31 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d89a1fc-4661-42e7-9f70-76421e181c96")
+		)
+		(instances
+			(project "psu"
+				(path "/dcf32edd-aaf4-447c-a68f-dcd4630a380b"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:-12V")
 		(at 252.73 140.97 180)
 		(unit 1)
@@ -13434,6 +13625,75 @@
 			(project "psu"
 				(path "/dcf32edd-aaf4-447c-a68f-dcd4630a380b"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 194.31 134.62 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dad0cf13-fa15-4f84-aa56-ca2b69897e4b")
+		(property "Reference" "C21"
+			(at 198.12 133.3499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "3u3"
+			(at 198.12 135.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 193.3448 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.31 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 194.31 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2e1c645f-1f81-4597-8d91-2a4f8e94b03b")
+		)
+		(pin "1"
+			(uuid "206cd926-6370-4148-b56c-222b60c798fd")
+		)
+		(instances
+			(project "psu"
+				(path "/dcf32edd-aaf4-447c-a68f-dcd4630a380b"
+					(reference "C21")
 					(unit 1)
 				)
 			)
