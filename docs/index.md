@@ -25,6 +25,10 @@ This design is based around a USB-C input: 45W-60W USB-C adapters are readily av
     * Molex Micro-Fit header (compatible with cabling for ATX PSUs)
 * Front-panel or back-of-case mounting options
 
+!!! note 
+
+    The USB-A output is not protected against reverse current nor current limited in Rev. 1.2.
+
 ## Documentation
 
 [Theory](theory.md)
