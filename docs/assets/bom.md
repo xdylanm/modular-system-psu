@@ -1,9 +1,9 @@
 | Reference                | Qty | Value                       | Footprint                                    | Description                                  |
 | ------------------------ | --- | --------------------------- | -------------------------------------------- | -------------------------------------------- |
-| C1,C8,C9,C11,C13,C15,C19 | 7   | 100n                        | 0805                                         | 0805 X5R 20% 50V                             |
+| C1,C8,C9,C11,C13,C15,C19,C23,C24 | 9   | 100n                        | 0805                                         | 0805 X5R 20% 50V                             |
 | C2,C3,C4,C5              | 4   | 47u                         | CAP SMD 5.0x5.8mm                            | UCM1E470MCL1GS 20% 25V                       |
-| C6,C7                    | 2   | 220u                        | CAP SMD 6.3x7.7mm                            | UCM1E221MCL1GS 20% 25V                       |
-| C10, C21                 | 2   | 3u3                         | 0805                                         | 0805 X5R 20% 35V                             |
+| C6,C7,C22                | 3   | 220u                        | CAP SMD 6.3x7.7mm                            | UCM1E221MCL1GS 20% 25V                       |
+| C10,C21                  | 2   | 3u3                         | 0805                                         | 0805 X5R 20% 35V                             |
 | C12,C20                  | 2   | 1u0                         | 0805                                         | 0805 X5R 20% 35V                             |
 | C14                      | 1   | 10u                         | 1206                                         | 1206 X5R 20% 35V                             |
 | C16                      | 1   | 47p                         | 0805                                         | 0805 X5R 20% 50V                             |
@@ -11,6 +11,9 @@
 | D1                       | 1   | LED                         | LED 3mm                                      | 3mm LED                                      |
 | D2                       | 1   | LED                         | 0805                                         | 0805 Red LED                                 |
 | D3                       | 1   | BZT52B12                    | SOD-123F                                     | BZT52B12 12V, 500mW                          |
+| D4,D5,D6                 | 3   | TSD05D                      | SOD-323                                      | TVS diode, Vrwm=5.5V                         |
+| D7,D8                    | 2   | TSD03D                      | SOD-323                                      | TVS diode, Vrwm=3.6V                         |
+| D9                       | 1   | TSD18D                      | SOD-323                                      | TVS diode, Vrwm=18V                          |
 | J1                       | 1   | Conn_02x08_Odd_Even         | IDC Header 02x08 P2.54mm Horizontal          | IDC 16P Horizontal                           |
 | J2                       | 1   | Conn_02x02_Odd_Even         | Molex Micro-Fit 3.0 02x02 P3.00mm Horizontal | Molex Micro-Fit 3.0 430450400 Horizontal     |
 | J3                       | 1   | USB_C_Receptacle_USB2.0_14P | USB-C 14P Vertical Flag                      | UJ20-C-R-G-TH-1-P14-TR                       |
@@ -23,10 +26,10 @@
 | R2,R3                    | 2   | 500m                        | 1206                                         | 1206 5%                                      |
 | R4,R7                    | 2   | 4k7                         | 0805                                         | 0805 1% 0.125W                               |
 | R5                       | 1   | 56k                         | 0805                                         | 0805 1% 0.125W                               |
-| R6                       | 1   | 22k                         | 0805                                         | 0805 1% 0.125W                               |
+| R6,R16                   | 2   | 22k                         | 0805                                         | 0805 1% 0.125W                               |
 | R8                       | 1   | 158k                        | 0805                                         | 0805 1% 0.125W                               |
 | R9                       | 1   | 30k1                        | 0805                                         | 0805 1% 0.125W                               |
-| R10                      | 1   | 100k                        | 0805                                         | 0805 1% 0.125W                               |
+| R10,R17                  | 2   | 100k                        | 0805                                         | 0805 1% 0.125W                               |
 | R11                      | 1   | 47k                         | 0805                                         | 0805 1% 0.125W                               |
 | R12,R13                  | 2   | 15k                         | 0805                                         | 0805 1% 0.125W                               |
 | R14,R15                  | 2   | 220                         | 0805                                         | 0805 1% 0.125W                               |
@@ -34,3 +37,4 @@
 | U1                       | 1   | REC30K-2412DZ               | REC30K-2412DZ                                | REC30K-2412DZ                                |
 | U2                       | 1   | CH224A                      | SSOP-10-EP                                   | CH224A                                       |
 | U3                       | 1   | AP63301WU                   | TSOT-23-6                                    | AP63301WU                                    |
+| U4                       | 1   | TPS2553D                    | TOT-23-6                                     | TPS2553D                                     |
